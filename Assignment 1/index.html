@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  
+    <script src="./main.js"></script>
+
+    <div class="border"></div>
+    <div class="toggleM"></div>
+    <div class="overlay"></div>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Connect</a></li>
+            <li><a href="#">Your Distance</a></li>
+            <li><a href="#">Challanges</a></li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggleM').click(function(){
+                $('.toggleM').toggleClass('active')
+                $('.overlay').toggleClass('active')
+                $('.menu').toggleClass('active')
+            })
+            $('.toggle_login').click(function(){
+                $('.toggle_login').toggleClass('active')
+                $('.overlay_login').toggleClass('active')
+                $('.container').toggleClass('active')
+                
+            }) })
+    </script> 
+    <div class="toggle_login"></div>
+    <div class="overlay_login"></div>
+    <div class="container">
+        <form class="form" id="login">
+            <h1 class="form__title">Login</h1>
+            <div class="form__mrssage form__message--error">Incorrent username/password combination.</div>
+            <div class="form__inpot-group">
+                <input type="text" class="form__input" autofocus placeholder="Username or email">
+                <div class="form__input-error-message">This is an error message</div>
+            </div>
+            <div class="form__inpot-group">
+                <input type="password" class="form__input" autofocus placeholder="password">
+                <div class="form__input-error-message"></div>
+            </div>
+            <button class="form__button" type="submit">Continue</button>
+            <p class="form__text">
+                <a href="#" class="form__link">Forgot password?</a>
+            </p>
+            <p class="form__text">
+                <a id="linkCreateAccount" href="./" class="form__link">Don't have an account? Create one here.</a>
+            </p>
+        </form>
+    </div>
+ 
+    <section>
+        <div>
+            <p class="idea"> 
+                Global running competition app, you can connect with friends and do weekly/montly challanges wih ,along with uncovering medals after achievements are unlocked
+            </p>
+            <p>
+                positions for week 1
+                <ul>
+                    <li>IM - Daniel</li>
+                    <li>po - McKenzie</li>
+                    <li>dev - Fauziah</li>
+                    <li>dev - Emily</li>
+                </ul>
+
+                page assignments 
+                <ul>
+                    <li>contact/about us - Fauziah </li>
+                    <li> stats - McKenzie</li>
+                    <li> connect - dan </li>
+                    <li> homepage & login form - emily</li>
+                </ul>
+
+            </p>
+        </div>
+    </section>
+
+
+
+
+</body>
+</html>
