@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "ejs": "^3.1.6"
-  }
+  },
+  "name": "cmpt-221l-621-21f",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emilysav/CMPT-221L-621-21F.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emilysav/CMPT-221L-621-21F/issues"
+  },
+  "homepage": "https://github.com/Emilysav/CMPT-221L-621-21F#readme"
 }
